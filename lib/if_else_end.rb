@@ -1,3 +1,6 @@
-puts "You know what year it is??"
-this_time = Time.now
-puts this_time
+time = Time.now.to_i 
+if time % 2 == 0 
+  puts "Even!"
+else
+  puts "Odd!"
+end
