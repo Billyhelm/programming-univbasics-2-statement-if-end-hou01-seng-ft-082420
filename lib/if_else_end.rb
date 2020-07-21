@@ -1,6 +1,6 @@
 time = Time.now.to_i 
 if time % 2 == 0 
-  puts "Even!"
+  return "Even!"
 else
-  puts "Odd!"
+  return "Odd!"
 end
